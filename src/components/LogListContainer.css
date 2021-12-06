@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+#loaderDiv{
+    align-content:center;
+    margin-left: 40%;
+    margin-top: 25%;
+}
+.main-container{
+    padding: 0;
+}

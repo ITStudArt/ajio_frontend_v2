@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    padding: 0;
+}
+#title {
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+
+.loglistTable {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+    font-size: 0.8em;
+    display: inline-block;
+    height: 80%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.loglistTable td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.loglistTable tr:nth-child(even){background-color: #f2f2f2;}
+
+.loglistTable tr:hover {background-color: #ddd;}
+
+.loglistTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+}
+.table-container{
+    height: 80vh;
+    width: auto;
+    display: inline-block;
+    margin-top: 10%;
+}
+.download-bar{
+    margin-left:-5%;
+    margin-top: -5%;
+}
+.download-bar button{
+    margin-left: 8%;
+    width: 20%;
+}
+.tableHeader{
+    position: fixed;
+    margin-top: -6%;
+}
